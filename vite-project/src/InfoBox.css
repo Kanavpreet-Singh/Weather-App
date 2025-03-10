@@ -1,0 +1,40 @@
+/* InfoBox.css */
+
+/* Styling the card container */
+.card {
+    max-width: 345px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* Styling the card image */
+  .card-image {
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Styling the card content */
+  .card-content {
+    padding: 20px;
+    color: #555;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* City name styling */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Weather info styling */
+  .card-info p {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+  
